@@ -10,13 +10,17 @@ Kontroller: Använd vänster och höger piltangenter för att flytta korgen.
 Poäng: Varje frukt du fångar ger dig 1 poäng. Din poäng visas längst upp på skärmen.
 Liv: Du börjar med 3 liv. För varje frukt som faller utanför skärmen förlorar du ett liv. Spelet slutar när du förlorar alla 3 liv.
 Starta om: När spelet är slut kan du starta om genom att klicka på knappen "Starta om".
+
 Spelfunktioner:
+
 Responsiv design: Spelet anpassar sig automatiskt till vilken skärmstorlek som helst.
 Animerad bakgrund: Spelet har en gradienthimmel med moln som långsamt rör sig.
 Fallande objekt: Söta fruktemojis (äpplen och apelsiner) faller slumpmässigt från toppen av skärmen i olika hastigheter.
 Elegant korg: En vackert designad korg med en gradient och skuggeffekter ger mer djup till spelet.
 Game Over-skärm: En glödande text och en omstartsknapp visas när spelet är slut, vilket möjliggör snabba omspel.
+
 Teknologier som används:
+
 HTML5: Struktur för webbsidan.
 CSS3: Används för att designa spelet, inklusive bakgrundsanimeringar och game-over-skärmen.
 JavaScript: Hanterar spellogiken, inklusive kontroller, animationer och kollisionsdetektering.
