@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .game-over {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .game-over h1 {
+    font-size: 48px;
+  }
+  
+  #restartButton {
+    padding: 12px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff9800, #ff5722);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+  }
+  
+  #restartButton:hover {
+    transform: scale(1.05);
+  }
+  
+  #restartButton:active {
+    transform: scale(0.98);
+  }
+  
